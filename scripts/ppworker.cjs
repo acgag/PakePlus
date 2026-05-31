@@ -280,7 +280,7 @@ const main = async () => {
         pwdTheme,
     } = ppconfig.desktop
     // get windows config
-    const winConfig = ppconfig.more.windows
+    const winConfig = ppconfig.windows
     console.log('iconPath, tempPath, icnsPath', iconPath, tempPath, icnsPath)
     // 输入 PNG 文件路径
     const inputPath = path.join(__dirname, iconPath)
